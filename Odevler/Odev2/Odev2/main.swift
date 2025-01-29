@@ -9,11 +9,12 @@ import Foundation
 
 //Parametre olarak girilen kilometreyi mile donusturdukten sonra geri donduren bir metod yaziniz
 
-func Hesapla(km:Double){
+func Hesapla(km:Double) -> Double{
     let mile : Double = km * 0.621
-    print(mile)
+    return mile
 }
-Hesapla(km: 100)
+let milHesabi = Hesapla(km: 30)
+print(milHesabi)
 //Kenarlari parametre olarak girilen ve dikdortgenin alanini hesaplayan bir metod yaziniz
 func DikAlan(kisaKenar:Int,uzunKenar:Int){
     let alan = kisaKenar * uzunKenar
@@ -21,15 +22,16 @@ func DikAlan(kisaKenar:Int,uzunKenar:Int){
 }
 DikAlan(kisaKenar: 50, uzunKenar: 30)
 //Parametre olarak girilen sayinin faktoriyel degerini hesaplayip geri donduren metodu yaziniz
-func Faktoriyel(sayi:Int){
+func Faktoriyel(sayi:Int) -> Int{
     var faktoriyel = 1
     for i in stride(from: sayi, through: 1, by: -1){
         faktoriyel = faktoriyel * i
     }
-    print(faktoriyel)
+    return faktoriyel
    
 }
-Faktoriyel(sayi: 3)
+let faktoriyelHesap = Faktoriyel(sayi: 3)
+print(faktoriyelHesap)
 //Parametre olarak girilen kelime icinde kac adet o harfi oldugunu gosteren bir metod yaziniz
 func HarfSayisi(kelime:String,harf:Character){
     var sayi = 0
@@ -42,24 +44,27 @@ func HarfSayisi(kelime:String,harf:Character){
 }
 HarfSayisi(kelime: "merhaba", harf: "a")
 //Parametre olarak girilen kenar sayisina gore her bir ic aciyi hesaplayip sonucu geri gonderen metod yaziniz
-func IcAciHesapla(kenarsayisi : Int){
+func IcAciHesapla(kenarsayisi : Int) -> Int{
     let Icacilartoplam = ((kenarsayisi - 2 ) * 180)
-    print("Ic Acilar Toplami : \(Icacilartoplam)")
+    return Icacilartoplam
 }
-IcAciHesapla(kenarsayisi: 4)
+let toplamIcAcilar = IcAciHesapla(kenarsayisi: 4)
+print("Ic Acilar Toplami : \(toplamIcAcilar)")
+
 
 //Parametre olarak girilen gun sayisina gore maas hesabi yapan elde edilen degeri donduren metod yaziniz
-func MaasHesabi(gunSayisi:Int){
+func MaasHesabi(gunSayisi:Int) -> Int{
     let calismasaati = gunSayisi * 8
     var calismasaatiucreti = calismasaati * 40
     if calismasaati > 150 {
         calismasaatiucreti += 80
     }
-    print("Maasiniz : \(calismasaatiucreti)")
+    return calismasaatiucreti
 }
-MaasHesabi(gunSayisi: 20)
+let toplamUcret = MaasHesabi(gunSayisi: 20)
+print(toplamUcret)
 //Parametre olarak girilen otopark suresine gore otopark ucreti hesaplayarak geri donduren metodu yaziniz
-func OtoparkHesapla(otoparkSuresi: Int){
+func OtoparkHesapla(otoparkSuresi: Int) -> Int{
     var otoparkucreti = 50
     if otoparkSuresi >= 1 {
         
@@ -75,5 +80,7 @@ func OtoparkHesapla(otoparkSuresi: Int){
         print("Dogru sure giriniz")
     }
   
+    return otoparkucreti
 }
-OtoparkHesapla(otoparkSuresi: 4)
+ let otoparkHesabi = OtoparkHesapla(otoparkSuresi: 4)
+print(otoparkHesabi)
