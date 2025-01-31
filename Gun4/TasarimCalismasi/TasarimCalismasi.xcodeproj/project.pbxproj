@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		520B59092D4AF4F10061B474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520B58EA2D4AF4EF0061B474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520B58F12D4AF4EF0061B474;
+			remoteInfo = TasarimCalismasi;
+		};
+		520B59132D4AF4F10061B474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520B58EA2D4AF4EF0061B474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520B58F12D4AF4EF0061B474;
+			remoteInfo = TasarimCalismasi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520B58F22D4AF4EF0061B474 /* TasarimCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasarimCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520B59082D4AF4F10061B474 /* TasarimCalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasarimCalismasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520B59122D4AF4F10061B474 /* TasarimCalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasarimCalismasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		520B591A2D4AF4F10061B474 /* Exceptions for "TasarimCalismasi" folder in "TasarimCalismasi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 520B58F12D4AF4EF0061B474 /* TasarimCalismasi */;
+		};
+		52A353F72D4B932C0027708A /* Exceptions for "TasarimCalismasi" folder in "TasarimCalismasiTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Fonts/Pacifico-Regular.ttf",
+			);
+			target = 520B59072D4AF4F10061B474 /* TasarimCalismasiTests */;
+		};
+		52A353F82D4B932C0027708A /* Exceptions for "TasarimCalismasi" folder in "TasarimCalismasiUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Fonts/Pacifico-Regular.ttf",
+			);
+			target = 520B59112D4AF4F10061B474 /* TasarimCalismasiUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		520B58F42D4AF4EF0061B474 /* TasarimCalismasi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				520B591A2D4AF4F10061B474 /* Exceptions for "TasarimCalismasi" folder in "TasarimCalismasi" target */,
+				52A353F72D4B932C0027708A /* Exceptions for "TasarimCalismasi" folder in "TasarimCalismasiTests" target */,
+				52A353F82D4B932C0027708A /* Exceptions for "TasarimCalismasi" folder in "TasarimCalismasiUITests" target */,
+			);
+			path = TasarimCalismasi;
+			sourceTree = "<group>";
+		};
+		520B590B2D4AF4F10061B474 /* TasarimCalismasiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TasarimCalismasiTests;
+			sourceTree = "<group>";
+		};
+		520B59152D4AF4F10061B474 /* TasarimCalismasiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TasarimCalismasiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520B58EF2D4AF4EF0061B474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520B59052D4AF4F10061B474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520B590F2D4AF4F10061B474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520B58E92D4AF4EF0061B474 = {
+			isa = PBXGroup;
+			children = (
+				520B58F42D4AF4EF0061B474 /* TasarimCalismasi */,
+				520B590B2D4AF4F10061B474 /* TasarimCalismasiTests */,
+				520B59152D4AF4F10061B474 /* TasarimCalismasiUITests */,
+				520B58F32D4AF4EF0061B474 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520B58F32D4AF4EF0061B474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520B58F22D4AF4EF0061B474 /* TasarimCalismasi.app */,
+				520B59082D4AF4F10061B474 /* TasarimCalismasiTests.xctest */,
+				520B59122D4AF4F10061B474 /* TasarimCalismasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520B58F12D4AF4EF0061B474 /* TasarimCalismasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520B591B2D4AF4F10061B474 /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */;
+			buildPhases = (
+				520B58EE2D4AF4EF0061B474 /* Sources */,
+				520B58EF2D4AF4EF0061B474 /* Frameworks */,
+				520B58F02D4AF4EF0061B474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				520B58F42D4AF4EF0061B474 /* TasarimCalismasi */,
+			);
+			name = TasarimCalismasi;
+			packageProductDependencies = (
+			);
+			productName = TasarimCalismasi;
+			productReference = 520B58F22D4AF4EF0061B474 /* TasarimCalismasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520B59072D4AF4F10061B474 /* TasarimCalismasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520B59202D4AF4F10061B474 /* Build configuration list for PBXNativeTarget "TasarimCalismasiTests" */;
+			buildPhases = (
+				520B59042D4AF4F10061B474 /* Sources */,
+				520B59052D4AF4F10061B474 /* Frameworks */,
+				520B59062D4AF4F10061B474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520B590A2D4AF4F10061B474 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				520B590B2D4AF4F10061B474 /* TasarimCalismasiTests */,
+			);
+			name = TasarimCalismasiTests;
+			packageProductDependencies = (
+			);
+			productName = TasarimCalismasiTests;
+			productReference = 520B59082D4AF4F10061B474 /* TasarimCalismasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		520B59112D4AF4F10061B474 /* TasarimCalismasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520B59232D4AF4F10061B474 /* Build configuration list for PBXNativeTarget "TasarimCalismasiUITests" */;
+			buildPhases = (
+				520B590E2D4AF4F10061B474 /* Sources */,
+				520B590F2D4AF4F10061B474 /* Frameworks */,
+				520B59102D4AF4F10061B474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520B59142D4AF4F10061B474 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				520B59152D4AF4F10061B474 /* TasarimCalismasiUITests */,
+			);
+			name = TasarimCalismasiUITests;
+			packageProductDependencies = (
+			);
+			productName = TasarimCalismasiUITests;
+			productReference = 520B59122D4AF4F10061B474 /* TasarimCalismasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520B58EA2D4AF4EF0061B474 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					520B58F12D4AF4EF0061B474 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					520B59072D4AF4F10061B474 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 520B58F12D4AF4EF0061B474;
+					};
+					520B59112D4AF4F10061B474 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 520B58F12D4AF4EF0061B474;
+					};
+				};
+			};
+			buildConfigurationList = 520B58ED2D4AF4EF0061B474 /* Build configuration list for PBXProject "TasarimCalismasi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 520B58E92D4AF4EF0061B474;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 520B58F32D4AF4EF0061B474 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520B58F12D4AF4EF0061B474 /* TasarimCalismasi */,
+				520B59072D4AF4F10061B474 /* TasarimCalismasiTests */,
+				520B59112D4AF4F10061B474 /* TasarimCalismasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520B58F02D4AF4EF0061B474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520B59062D4AF4F10061B474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520B59102D4AF4F10061B474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520B58EE2D4AF4EF0061B474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520B59042D4AF4F10061B474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520B590E2D4AF4F10061B474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520B590A2D4AF4F10061B474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520B58F12D4AF4EF0061B474 /* TasarimCalismasi */;
+			targetProxy = 520B59092D4AF4F10061B474 /* PBXContainerItemProxy */;
+		};
+		520B59142D4AF4F10061B474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520B58F12D4AF4EF0061B474 /* TasarimCalismasi */;
+			targetProxy = 520B59132D4AF4F10061B474 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		520B591C2D4AF4F10061B474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pizza;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozankutsal.TasarimCalismasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		520B591D2D4AF4F10061B474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pizza;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozankutsal.TasarimCalismasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		520B591E2D4AF4F10061B474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		520B591F2D4AF4F10061B474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520B59212D4AF4F10061B474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozankutsal.TasarimCalismasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasarimCalismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasarimCalismasi";
+			};
+			name = Debug;
+		};
+		520B59222D4AF4F10061B474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozankutsal.TasarimCalismasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasarimCalismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasarimCalismasi";
+			};
+			name = Release;
+		};
+		520B59242D4AF4F10061B474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozankutsal.TasarimCalismasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasarimCalismasi;
+			};
+			name = Debug;
+		};
+		520B59252D4AF4F10061B474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G965N4YF9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozankutsal.TasarimCalismasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasarimCalismasi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520B58ED2D4AF4EF0061B474 /* Build configuration list for PBXProject "TasarimCalismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520B591E2D4AF4F10061B474 /* Debug */,
+				520B591F2D4AF4F10061B474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520B591B2D4AF4F10061B474 /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520B591C2D4AF4F10061B474 /* Debug */,
+				520B591D2D4AF4F10061B474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520B59202D4AF4F10061B474 /* Build configuration list for PBXNativeTarget "TasarimCalismasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520B59212D4AF4F10061B474 /* Debug */,
+				520B59222D4AF4F10061B474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520B59232D4AF4F10061B474 /* Build configuration list for PBXNativeTarget "TasarimCalismasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520B59242D4AF4F10061B474 /* Debug */,
+				520B59252D4AF4F10061B474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520B58EA2D4AF4EF0061B474 /* Project object */;
+}
