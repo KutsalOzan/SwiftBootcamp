@@ -9,13 +9,18 @@ import UIKit
 
 class OyunEkraniVC: UIViewController {
     
-    var mesaj:String?
-
+    var kisi:Kisiler?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if let m = mesaj{
-            print("OyunEkraniVc : \(m)")
+        if let k = kisi{
+            print("-----OyunEkraniVC-----")
+            print("Kisi adi : \(k.ad!)")
+            print("Kisi yasi : \(k.yas!)")
+            print("Kisi boyu : \(k.boy!)")
+            print("Kisi bekarligi : \(k.bekar!)")
+            
         }
     }
     
@@ -25,7 +30,9 @@ class OyunEkraniVC: UIViewController {
     }
     
     @IBAction func buttonGeri(_ sender: Any) {
-        navigationController?.popViewController(animated: true)
+        //navigationController?.popViewController(animated: true)//Bir onceki sayfaya donus
+        
+        navigationController?.popToRootViewController(animated: true)//Anasayfaya donus
     }
     
 }

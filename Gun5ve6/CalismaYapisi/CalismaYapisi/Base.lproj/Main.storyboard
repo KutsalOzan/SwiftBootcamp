@@ -52,6 +52,19 @@
                     </view>
                     <navigationItem key="navigationItem" title="Anasayfa" id="vW5-hs-hCR">
                         <barButtonItem key="backBarButtonItem" title="Geri" id="nQ6-vN-Hjd"/>
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="add" id="wja-0X-Sm1">
+                                <color key="tintColor" systemColor="systemPinkColor"/>
+                                <connections>
+                                    <action selector="buttonAdd:" destination="BYZ-38-t0r" id="JWd-Sr-5a4"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="save" id="Lgc-bG-g9O">
+                                <connections>
+                                    <action selector="buttonSave:" destination="BYZ-38-t0r" id="MOu-Rs-HIy"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="labelAnasayfa" destination="eic-iO-Kxt" id="7GD-l7-0Xy"/>
@@ -173,6 +186,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

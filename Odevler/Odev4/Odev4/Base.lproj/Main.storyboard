@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ye9-eT-fuy">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Odev4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Anasayfa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEg-Ku-PhV">
+                                <rect key="frame" x="125" y="291" width="140" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaj-OD-26U">
+                                <rect key="frame" x="256" y="575" width="78" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SayfaX"/>
+                                <connections>
+                                    <action selector="buttonSayfaX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uVe-Tw-wH6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVP-PI-CLL">
+                                <rect key="frame" x="56" y="575" width="78" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SayfaA"/>
+                                <connections>
+                                    <action selector="buttonSayfaA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kZZ-qV-2AX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eVP-PI-CLL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-100" id="530-W8-RIK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kaj-OD-26U" secondAttribute="bottom" constant="200" id="9LS-30-3lj"/>
+                            <constraint firstItem="kaj-OD-26U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="100" id="ES1-rG-087"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eVP-PI-CLL" secondAttribute="bottom" constant="200" id="fZb-Ki-RiP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OdH-0V-iAl">
+                        <barButtonItem key="backBarButtonItem" title="Geri" id="evN-6x-AdP"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="Zp4-W2-hIl" kind="show" identifier="SayfaA" id="IvX-aH-X6B"/>
+                        <segue destination="v1P-jI-mho" kind="show" identifier="SayfaX" id="5qV-QB-6i0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1060" y="-34.123222748815166"/>
+        </scene>
+        <!--SayfaX-->
+        <scene sceneID="QhT-u0-D7M">
+            <objects>
+                <viewController id="v1P-jI-mho" customClass="SayfaX" customModule="Odev4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LXe-aW-U6C">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAYFA X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93U-Pr-cZy">
+                                <rect key="frame" x="128.66666666666669" y="291" width="132.66666666666669" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLk-zr-RuV">
+                                <rect key="frame" x="157" y="575" width="76" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SayfaY"/>
+                                <connections>
+                                    <action selector="sayfaYgecis:" destination="v1P-jI-mho" eventType="touchUpInside" id="PJb-b7-L0P"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HRR-cu-hDW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eLk-zr-RuV" firstAttribute="centerX" secondItem="LXe-aW-U6C" secondAttribute="centerX" id="CwD-h4-zjY"/>
+                            <constraint firstItem="HRR-cu-hDW" firstAttribute="bottom" secondItem="eLk-zr-RuV" secondAttribute="bottom" constant="200" id="sMi-bZ-aUu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="NTo-Dj-XHl"/>
+                    <connections>
+                        <segue destination="dAy-Mc-VdG" kind="show" identifier="SayfaY" id="eFb-gQ-LDE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MQr-g8-fDB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1807.6923076923076" y="470.61611374407579"/>
+        </scene>
+        <!--SayfaY-->
+        <scene sceneID="0Z3-lY-41t">
+            <objects>
+                <viewController id="dAy-Mc-VdG" customClass="SayfaY" customModule="Odev4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Uj-E2-6fh">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAYFA Y" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CeK-T4-yld">
+                                <rect key="frame" x="129" y="278" width="132" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MM-58-a7M">
+                                <rect key="frame" x="147.66666666666666" y="575" width="94.666666666666657" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Basa don"/>
+                                <connections>
+                                    <action selector="buttonBasaDon:" destination="dAy-Mc-VdG" eventType="touchUpInside" id="Weh-zM-gpv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6O5-9Q-uxF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3MM-58-a7M" firstAttribute="centerX" secondItem="7Uj-E2-6fh" secondAttribute="centerX" id="Vhd-2X-vgG"/>
+                            <constraint firstItem="6O5-9Q-uxF" firstAttribute="bottom" secondItem="3MM-58-a7M" secondAttribute="bottom" constant="200" id="dOL-z6-dRp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xwc-G0-E3d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lSO-80-oBC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2594" y="471"/>
+        </scene>
+        <!--SayfaA-->
+        <scene sceneID="u1m-1d-Lh0">
+            <objects>
+                <viewController id="Zp4-W2-hIl" customClass="SayfaA" customModule="Odev4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UZC-rE-IAd">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAYFA A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAf-f5-h9H">
+                                <rect key="frame" x="128.66666666666669" y="291" width="132.66666666666669" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hB4-88-5r0">
+                                <rect key="frame" x="156.66666666666666" y="575" width="77" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SayfaB"/>
+                                <connections>
+                                    <action selector="buttonB:" destination="Zp4-W2-hIl" eventType="touchUpInside" id="zWZ-4P-IpS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9gj-Ti-ZZo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cAf-f5-h9H" firstAttribute="centerX" secondItem="UZC-rE-IAd" secondAttribute="centerX" id="09C-Yk-E2D"/>
+                            <constraint firstItem="cAf-f5-h9H" firstAttribute="top" secondItem="9gj-Ti-ZZo" secondAttribute="top" constant="200" id="h2W-6w-AKM"/>
+                            <constraint firstItem="hB4-88-5r0" firstAttribute="centerX" secondItem="UZC-rE-IAd" secondAttribute="centerX" id="hLz-Qv-Jkm"/>
+                            <constraint firstItem="9gj-Ti-ZZo" firstAttribute="bottom" secondItem="hB4-88-5r0" secondAttribute="bottom" constant="200" id="tfu-Dz-2n0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ttL-26-5Tc"/>
+                    <connections>
+                        <segue destination="P65-RO-61D" kind="show" identifier="SayfaB" id="KcN-qh-083"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vkg-hn-IFe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1808" y="-289"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CEQ-Jj-ewV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ye9-eT-fuy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sEm-8s-DMX">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zEX-mc-Dqq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c1W-D6-nCn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.76923076923077" y="-34.123222748815166"/>
+        </scene>
+        <!--SayfaB-->
+        <scene sceneID="r7d-jV-ZEz">
+            <objects>
+                <viewController id="P65-RO-61D" customClass="SayfaB" customModule="Odev4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kF7-0i-m8t">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAYFA B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWV-Bn-beN">
+                                <rect key="frame" x="129" y="291" width="132" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwA-0c-SNu">
+                                <rect key="frame" x="157" y="575" width="76" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SayfaY"/>
+                                <connections>
+                                    <action selector="buttonSayfaY:" destination="P65-RO-61D" eventType="touchUpInside" id="DTb-NS-VzW"/>
+                                    <action selector="buttonSayfaY:" destination="lRS-B3-4Tn" eventType="touchUpInside" id="QKL-Ae-7VK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cNh-03-2gw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cNh-03-2gw" firstAttribute="bottom" secondItem="JwA-0c-SNu" secondAttribute="bottom" constant="200" id="5S3-my-0VP"/>
+                            <constraint firstItem="JwA-0c-SNu" firstAttribute="centerX" secondItem="kF7-0i-m8t" secondAttribute="centerX" id="9WM-dc-qRq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8nQ-aL-I3I"/>
+                    <connections>
+                        <segue destination="dAy-Mc-VdG" kind="show" identifier="SayfaY" id="K11-jJ-mLo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bE3-VD-yQc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="lRS-B3-4Tn" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2594" y="-289"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="eFb-gQ-LDE"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
